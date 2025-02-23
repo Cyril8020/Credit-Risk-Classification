@@ -10,7 +10,9 @@ The Results:
 •	The accuracy score given for our model was 0.99, meaning that it was very accurate
 •	The precision score for our model was 1 and 0.86 (weighted avg of 0.99) for healthy and high-risk loans meaning that there is not a lot of false positives and it’s predictions are correct
 •	The recall score for our model was 0.99 and 0.94 for healthy and high-risk loans. This means that our model did a good job at predicting true positives and had minimal false negatives.
- Summary
+
+Summary:
+
 Our logistical regression model was very accurate in predicting the loan status for healthy and high-risk loans with the weighted average being 0.99 for all of precision, recall and the f1-score. 
 This means that a logistical regression model was good to use for the data that we have. The performance does, however, depend on what we are trying to solve. 
 If we were to try to maximize the high-risk loans, the model performance would be a little less accurate in all of the categories of precision, recall, and f1-score. 
